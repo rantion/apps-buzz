@@ -7,6 +7,9 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <h1 class="text-3xl font-extrabold underline">
+        Hello world!
+      </h1>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
