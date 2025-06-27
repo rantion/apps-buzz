@@ -7,10 +7,13 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <h1 class="text-3xl font-extrabold underline">
+      <div class="flex flex-col pt-3">
+      <h1 class="text-3xl font-extrabold! underline">
         Hello world!
       </h1>
-
+      <p>more text</p>
+      <p>and another</p>
+      </div>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
